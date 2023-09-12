@@ -1,0 +1,18 @@
+[package]
+name = "template-project"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tudelft-quadrupel = {version="2.1"}
+micromath = "2.0.0"
+architecture = {path="../architecture"}
+protocol = { path = "../protocol" }
+log = {path="../log"}
+postcard = "1.0.2"
+fixed = "1.23.0"
+fixed_trigonometry = "0.4.3"
+enum-map = "2.5.0"
+lowpass-filter = "0.3.2"
